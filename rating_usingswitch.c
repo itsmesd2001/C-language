@@ -25,9 +25,7 @@ int main(){
         printf("You have rated us 0 Star. Thank You.");
         break;
     
-    default:
-        printf("Invalid Rating..!!");
-        break;
+    
     }
     return 0;
 }
