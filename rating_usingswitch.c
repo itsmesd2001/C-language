@@ -26,7 +26,7 @@ int main(){
         break;
     
     default:
-        printf("Invalid Rating..!!");
+        printf("pagal hai kya be ..!!");
         break;
     }
     return 0;
