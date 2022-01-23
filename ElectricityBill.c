@@ -48,7 +48,7 @@
            printf("\nCustomer ID: %d\n", id);
            printf("\nUnits consumed this month:%d\n", units);
            printf("\nThe amount to be paid before due date: %f Rs\n",  amount);
-           printf("\nThe due date is 20th of this month. After due date you will be charged @5percent per day as fine.\n");
+           printf("\nThe due date is 24th of this month. After due date you will be charged @5percent per day as fine.\n");
        
 
        return 0;
