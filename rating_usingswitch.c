@@ -26,6 +26,9 @@ int main(){
         break;
     
     
+    default:
+        printf("pagal hai kya be ..!!");
+        break;
     }
     return 0;
 }
