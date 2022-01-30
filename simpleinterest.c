@@ -12,3 +12,4 @@ int main(){
     printf("The value of the Simple Interest is %f", (rate*principal*time)/100);
 
     return 0;
+}
