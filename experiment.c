@@ -14,7 +14,7 @@ int main(){
            
            for ( x = 0; x!=2*i-1; x++)
            {
-                printf("%c ", x+65); 
+                printf("* "); 
            }
             printf("\n"); 
        }
