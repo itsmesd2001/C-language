@@ -3,7 +3,7 @@ int main(){
     int n; char choice;
       printf("Press S to calculate resistances in series.\n"); 
       printf("Press P to calculate resistances in Parallel.\n"); 
-      choice=getchar();
+     choice = getchar();
 
      printf("Enter the number of resistances:\n"); 
      scanf("%d", &n);
