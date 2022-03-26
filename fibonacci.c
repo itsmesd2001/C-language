@@ -20,7 +20,7 @@ int main(){
     int n;
      printf("Enter the value for n\n"); 
      scanf("%d", &n);
-    //   printf("The element is the fibonacci series is %d",  fibonacci(n) ); 
+    
     for (int i = 1; i <= n; i++)
     {
          printf("%d, ", fibonacci(i)); 

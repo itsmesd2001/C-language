@@ -5,7 +5,7 @@ int main(){
        scanf("%d", &rows);
 
 
-       for ( i = 1; i <=rows; i++)
+       for ( i = rows; i >0; i--)
        {
            for ( space = 1; space <=rows-i; space++)
            {

@@ -11,7 +11,7 @@ int main(){
 
     if(choice=='S' || choice=='s'){
          result=0;
-  
+     
      for ( int i = 0; i < n; i++ )
      {
           printf("Enter the value of R%d \n", i+1); 

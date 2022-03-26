@@ -1,13 +1,10 @@
 #include<stdio.h>
-int main(){
-    int num;
-
+void prime(int a);
+void prime(int a){
     int prime=1;
-     printf("Enter the number\n"); 
-     scanf("%d", &num);
-        for ( int i = 2,result; i < num; i++)
+    for ( int i = 2,result; i < a; i++)
         {
-            result=num%i;
+            result=a%i;
             if (result==0)
             {
                 prime=0;
@@ -31,6 +28,13 @@ int main(){
         {
              printf("The number is prime number\n"); 
         }
+
+}
+int main(){
+    int num;
+     printf("Enter the number\n"); 
+     scanf("%d", &num);
+     prime(num);
         
     return 0;
 }
